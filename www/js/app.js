@@ -22,8 +22,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 })
 
 .config( function($stateProvider, $urlRouterProvider, $compileProvider) {
+  
   // this makes links for tel and skype work perfectly
-  $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|file|tel|skype):/);
+  $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|tel|skype|mailto):/);
   
   
   // Ionic uses AngularUI Router which uses the concept of states
