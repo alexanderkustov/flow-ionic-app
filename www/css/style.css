@@ -1,4 +1,7 @@
 /* Empty. Add your own CSS if you like */
-.has-header {
-  background: #f9f9f9;
+.bar.bar-stable{
+	background: #f5f5f5 !important;
+}
+.has-header{
+	background:#F1F2F6;
 }
